@@ -41,7 +41,7 @@ public class MainFrame extends JFrame {
     private ImageEditorPanel imageEditor;
 
     public MainFrame(String path) throws HeadlessException {
-        super("Draw 9-patch");
+        super("Draw 9-patch, use alt to draw or erase Line~");
 
         buildActions();
         buildMenuBar();
